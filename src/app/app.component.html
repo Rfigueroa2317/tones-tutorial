@@ -1,0 +1,32 @@
+<h1>Hello there!</h1>
+<div class="sharp-keys">
+  <div class="sharp-keysCD">
+    <button
+      (mousedown)="onButtonPress()"
+      (mouseup)="onButtonPress()"
+      (mouseleave)="onButtonRelease()"
+      [class.active]="isButtonPressed"
+      id="sharp-btn"
+      (click)="cSharp3()"
+    >
+      C#
+    </button>
+    <button id="sharp-btn" (click)="dSharp3()">D#</button>
+  </div>
+  <div class="sharp-keysFGA">
+    <button id="sharp-btn" (click)="fSharp3()">F#</button>
+    <button id="sharp-btn" (click)="gSharp3()">G#</button>
+    <button id="sharp-btn" (click)="aSharp3()">A#</button>
+  </div>
+</div>
+<div class="white-keys">
+  <button id="play-btn" (click)="c3()">C</button>
+  <button id="play-btn" (click)="d3()">D</button>
+  <button id="play-btn" (click)="e3()">E</button>
+  <button id="play-btn" (click)="f3()">F</button>
+  <button id="play-btn" (click)="g3()">G</button>
+  <button id="play-btn" (click)="a4()">A</button>
+  <button id="play-btn" (click)="b4()">B</button>
+  <button id="play-btn" (click)="c4()">C</button>
+</div>
+
